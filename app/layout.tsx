@@ -18,6 +18,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://mikeontech.com"),
   title: {
     default: "MikeOnTech (MOT) — Founder & CEO Portfolio",
     template: "%s — MikeOnTech (MOT)",

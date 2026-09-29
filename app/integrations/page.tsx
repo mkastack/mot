@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import AnimateIn from "../components/AnimateIn";
 import Link from "next/link";
-import { MessageSquare, Zap, HardDrive, RefreshCw, Mail, FileText, Globe, Box, Users, Calendar, ArrowRight, Check } from "lucide-react";
+import { MessageSquare, Zap, HardDrive, RefreshCw, Mail, FileText, Globe, Box, Users, Calendar } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Integrations",
@@ -61,18 +61,18 @@ const NETWORK_NODES = [
 ];
 
 const CODE_LINES = [
-  { num: "1", content: <><span className="code-keyword">const</span> <span className="code-value">braxvio</span> = <span className="code-keyword">require</span>(<span className="code-string">'@braxvio/sdk'</span>);</> },
-  { num: "2", content: <span className="code-comment">// Capture intelligence via API</span> },
+  { num: "1", content: <><span className="code-keyword">const</span> <span className="code-value">braxvio</span> = <span className="code-keyword">require</span>(<span className="code-string">&apos;@braxvio/sdk&apos;</span>);</> },
+  { num: "2", content: <span className="code-comment">&#47;&#47; Capture intelligence via API</span> },
   { num: "3", content: null },
   { num: "4", content: <><span className="code-keyword">const</span> <span className="code-value">capture</span> = <span className="code-keyword">await</span> braxvio.</> },
   { num: "5", content: <>&nbsp;&nbsp;<span className="code-value">intelligence</span>.<span className="code-value">capture</span>{"({"}</> },
-  { num: "6", content: <>&nbsp;&nbsp;&nbsp;&nbsp;<span className="code-key">content</span>: <span className="code-string">"Market opportunity in Lagos"</span>,</> },
-  { num: "7", content: <>&nbsp;&nbsp;&nbsp;&nbsp;<span className="code-key">type</span>: <span className="code-string">"insight"</span>,</> },
-  { num: "8", content: <>&nbsp;&nbsp;&nbsp;&nbsp;<span className="code-key">priority</span>: <span className="code-string">"high"</span>,</> },
-  { num: "9", content: <>&nbsp;&nbsp;&nbsp;&nbsp;<span className="code-key">project</span>: <span className="code-string">"expansion-2025"</span></> },
+  { num: "6", content: <>&nbsp;&nbsp;&nbsp;&nbsp;<span className="code-key">content</span>: <span className="code-string">&quot;Market opportunity in Lagos&quot;</span>,</> },
+  { num: "7", content: <>&nbsp;&nbsp;&nbsp;&nbsp;<span className="code-key">type</span>: <span className="code-string">&quot;insight&quot;</span>,</> },
+  { num: "8", content: <>&nbsp;&nbsp;&nbsp;&nbsp;<span className="code-key">priority</span>: <span className="code-string">&quot;high&quot;</span>,</> },
+  { num: "9", content: <>&nbsp;&nbsp;&nbsp;&nbsp;<span className="code-key">project</span>: <span className="code-string">&quot;expansion-2025&quot;</span></> },
   { num: "10", content: <>{"  })"}</> },
   { num: "11", content: null },
-  { num: "12", content: <><span className="code-comment">// Returns: {`{ id, status, tags, linked_tasks }`}</span></> },
+  { num: "12", content: <><span className="code-comment">&#47;&#47; Returns: &#123; id, status, tags, linked_tasks &#125;</span></> },
 ];
 
 export default function IntegrationsPage() {

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Rocket, Briefcase, Mic, Wrench, MessageSquare, Check, Copy, MapPin, Clock, Send, ArrowUpRight } from "lucide-react";
+import { Rocket, Briefcase, Mic, Wrench, MessageSquare, Check, Copy, MapPin, Clock, Send } from "lucide-react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import AnimateIn from "../components/AnimateIn";

@@ -353,7 +353,7 @@ export default function PricingPage() {
               <h2 className="text-[42px] sm:text-[56px] font-bold leading-[1.07] text-[#F5F0EB] mb-6" style={{ fontFamily: "var(--font-playfair), serif" }}>
                 Start with <em className="italic text-[#C8A97E]">clarity.</em>
               </h2>
-              <p className="text-[15px] text-[#6B6560] mb-9" style={{ fontFamily: "var(--font-inter)" }}>No credit card required. Start free and upgrade when you're ready.</p>
+              <p className="text-[15px] text-[#6B6560] mb-9" style={{ fontFamily: "var(--font-inter)" }}>No credit card required. Start free and upgrade when you&apos;re ready.</p>
               <Link href="/contact" id="pricing-cta" className="inline-flex items-center gap-2.5 px-8 py-4 bg-[#C8A97E] text-[#0F0E0C] rounded-full text-[15px] font-semibold hover:bg-[#D4B98E] transition-all hover:scale-[1.02]" style={{ fontFamily: "var(--font-inter)" }}>
                 Get started for free
                 <svg width="14" height="14" viewBox="0 0 12 12" fill="none"><path d="M2 10L10 2M10 2H4M10 2V8" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/></svg>

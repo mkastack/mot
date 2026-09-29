@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
-import { ArrowUpRight, Menu, X, Mail, Sparkles } from "lucide-react";
+import { ArrowUpRight, Menu, X, Mail } from "lucide-react";
 import QuickContactModal from "./QuickContactModal";
 
 const NAV_LINKS = [
@@ -34,8 +34,6 @@ export default function Navbar() {
       document.body.style.overflow = "";
     };
   }, [mobileOpen]);
-
-  useEffect(() => setMobileOpen(false), [pathname]);
 
   const isActive = (item: typeof NAV_LINKS[0]) => {
     if (pathname === item.path) return true;

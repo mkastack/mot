@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import AnimateIn from "../components/AnimateIn";
 import Link from "next/link";
-import { Zap, Brain, Target, Folder, Search, Users, RefreshCw, Radio, Sparkles, Check, FileText, TrendingUp, ArrowRight } from "lucide-react";
+import { Zap, Brain, Target, Folder, Search, Users, RefreshCw, Radio, Sparkles, Check, FileText, TrendingUp } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Features",
